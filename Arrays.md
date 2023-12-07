@@ -1,7 +1,7 @@
 # Arrays
 
 continguous memory allocation <br>
-fast random acces arr[i]<br>
+fast random access arr[i]<br>
 
 ### Vectors(dynamic size arrays)
 
@@ -16,7 +16,7 @@ copy v1 = v2 <br>
 #### Inserting an element in between 
 #### Deleting an element from array
 #### Second Largest Element
-[Seconde Largest](Array/SecondLarges.cpp)<br>
+[Second Largest](Array/SecondLarges.cpp)<br>
 #### Reverse An Array
 #### Remove Duplicates from sorted array
 [Remove Dupli](Array/RemoveDupli.cpp) <br>
