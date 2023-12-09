@@ -57,20 +57,36 @@ Hint: n + sum(n-1);
 
 #### [Rope Cutting Problem](Recursion/RopeCuttingRcrsn.cpp)
 
+
 I/P n,a,b,c <br>
 O/P No of max peices in which we can cut a rope of initial length n such that remaining ropes length lies in {a,b,c} <br>
-Hint: Base Case n==0 return 0; And n<0 return -1;<br>
-        ways(n,a,b,c) will call<br>
+
+<details>
+<summary>Hint</summary>
+<br>
+Hint: Base Case n==0 return 0; And n<0 return -1;
+        ways(n,a,b,c) will call <br>
         res = max of the three ways (n-a,a,b,c), (n-b,a,b,c) and (n-c,a,b,c) <br>
         if all will return -1 then cuts are invalid simply return -1;<br>
         return 1 + res;<br>
+</details>
+
 #### [Subsets](Recursion/SubsetRcrsn.cpp)
 Return power set of given string example "abc" <br>
+
+<details>
+<summary>Hint</summary>
+<br>
 Hint:Two rec calls for subset(str,newstr,i)<br>
         First: subset(str,newstr,i+1);<br>
         Second: subset(str,newstr+str[i],i+1)<br>
+</details>
 
 #### [Tower Of Hanoi](Recursion/TowerOfHanoi.cpp)
+<details>
+<summary>Hint</summary>
+<br>
+
 Hint: Fun is(n,src,hlp,dst)<br>
         BaseCase: if(n == 1) print src to dst<br><br>
 
@@ -80,18 +96,32 @@ Two rec call <br>
         Second: move from hlp to dst using src<br>
 
         T(n) = 2T(n-1) + c
+</details>
 
 #### [Josephus Problem (last man standing)](Recursion/JosephusCircle.cpp)
 n people arrange in a circle and at every itr kth people will be killed <br>
+<details>
+<summary>Hint</summary>
+<br>
 Hint: Sol for 0 based indexing think if chote part ka soln pata hai to bade part ka kaise nikale <br>
         //BaseCase If n == 1 matlab ek hi hai 0 wala <br>
         {F(n,k) = [F(n-1)+k]%n} <br>
+</details>
 
 #### [No of Subset equal to given sum](Recursion/EqualSumSubsets.cpp)
+<details>
+<summary>Hint</summary>
+<br>
+
 Hint: Alag Alag subset banaane se accha ek su, variable leke chalo<br>
 f(v,k,i,sum) will call with ctr = sum + sum+v[i]<br>
 //BaseCase when i == v.size() return sum == k?1:0;<br>
+</details>
+
 #### [Permutaions of String ](Recursion/PermutationsOfString.cpp)
+<details>
+<summary>Hint</summary>
+<br>
 Halke me mat lena bawa <br>
 Age wale ko fix krte jo bache honge unhe permute fun sambhal lega <br>
 rec function k andar loop bhi hoga <br>
@@ -105,3 +135,4 @@ f(str,i){
     }
 }
 isko samajh dalaa to life jhingalalaa
+</details>
