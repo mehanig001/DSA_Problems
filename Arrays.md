@@ -137,7 +137,7 @@ left sum for left corner = 0 similarly for right
 calc total sum for help
 </details>
 
-#### [Find Max Appearing Element in Given Ranges From Left To Right](Array/MaxOccElement.cpp)
+#### [Find Max Appearing Element in Given Ranges From Left To Right](Array/MaxAppEleInRange.cpp)
 <details>
 <summary>Hint</summary>
 <br>
