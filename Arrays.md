@@ -83,10 +83,69 @@ dono ka max le lo <br>
 agar sare element neg honge to normal wala hi lena
 </details>
 
-#### 
-#### 
-#### 
-#### 
+#### [Index of Majority Element Appearing more than n/2 times](Array/MaxOccElement.cpp)
+<details>
+<summary>Hint</summary>
+<br>
+//Cancellation
+first element ko max occ maan lo aur count = 1 kr do
+fir agar dusra element ata hai to count-- kr do
+agar count 0 ho jata hai to naye wale element ka index store kar do 
+
+ab jo idx mila chk kr lo array me us element ki occ n/2 se jyada hai ki nhi
+</details>
+
+#### [Min Grp Flips To Make All Same In BinaryArray](Array/MinGroupFlipsToMakeAllSameBinaryArray.cpp)
+<details>
+<summary>Hint</summary>
+<br>
+ya to grpcount ka diff 0 hoga ya 1 
+to sabse pahle element hoga wo hamesha jyada ya barabar bar ayega
+</details>
+
+#### [Window Sliding Problem MaxSumOfkConsElements](Array/SlidingWindow.cpp)
+<details>
+<summary>Hint</summary>
+<br>
+pichla hatao naya lao according to the given situation
+</details>
+
+#### [Subarray With Given Sum Exist Or Not](Array/SubarrWithSumExist.cpp)
+<details>
+<summary>Hint</summary>
+<br>
+sliding window ki tarah remove the previous one from sum and chk if curr = given sum of not if greater then reomve until it becomes equal or smaller
+otherwise simply add
+</details>
+
+
+#### [Prefix Sum](Array/WieghtedPrefix.cpp)
+<details>
+<summary>Hint</summary>
+<br>
+kuch difference lene ka socho normal prefix aur weighted prefix ko use krke
+weighted matlab 1*a[0] , 1*a[0]+2*a[1], 1*a[0]+2*a[1]+3*a[2]........
+</details>
+
+
+#### [Equilibrium Point Exist Or Not](Array/EquilibriumExist.cpp)
+<details>
+<summary>Hint</summary>
+<br>
+left sum = right sum then yes
+left sum for left corner = 0 similarly for right
+calc total sum for help
+</details>
+
+#### [Find Max Appearing Element in Given Ranges From Left To Right](Array/MaxOccElement.cpp)
+<details>
+<summary>Hint</summary>
+<br>
+O(N*MAX) make freq[max] and for each j = left[i] to right[i] freq[j]++;
+Or<br>
+O(N+MAX) f[left[i]] = 1 and f[right[i] +1]  = -1
+Now take pref sum of f and then idx of maxi will be ans
+</details>
 
 
 

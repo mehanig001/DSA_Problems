@@ -47,7 +47,7 @@ observe pattern and write value for some of c until base case reaches<br><br><br
 #### print 1 to n and equivalent tail rec 
 Hint: fun(int n, int i); i for directly printing<br>
 #### Fibonacci
-Hint: f(n) = f(n-1)+f(n-2);<br>
+Hint: f(n) = f(n-1)+f(n-2); TC: 2^n<br>
 #### Sum up to first n
 Hint: n + sum(n-1);
 
