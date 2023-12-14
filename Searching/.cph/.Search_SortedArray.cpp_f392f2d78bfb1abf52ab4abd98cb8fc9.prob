@@ -1,0 +1,1 @@
+{"name":"Local: Search_SortedArray","url":"c:\\Users\\gauta\\DSA\\Searching\\Search_SortedArray.cpp","tests":[{"id":1702459056587,"input":"2\n7 30\n10 20 30 40 50 8 9\n5 40\n100 200 300 10 20","output":"2\n-1"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\gauta\\DSA\\Searching\\Search_SortedArray.cpp","group":"local","local":true}

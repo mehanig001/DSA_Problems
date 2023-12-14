@@ -1,0 +1,1 @@
+{"name":"Local: BinarySearch","url":"c:\\Users\\gauta\\DSA\\Searching\\BinarySearch.cpp","tests":[{"id":1702288063924,"input":"4\n3 2\n1 2 3\n3 1\n3 1 2\n4 2\n1 3 2 4\n4 2\n2 3 1 4","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\gauta\\DSA\\Searching\\BinarySearch.cpp","group":"local","local":true}
