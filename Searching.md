@@ -10,9 +10,11 @@
 <details>
 <summary>Hint</summary>
 <br>
-Take n,si,ei as a parameter and check if mid element is equal to key if yes return mid <br>
-else if midval > key search in left part o/w search in right half <br>
+{ 
+Take n,si,ei as a parameter and check if mid element is equal to key if yes return mid 
+else if midval > key search in left part o/w search in right half 
 don't forget to update mid 
+}
 </details>
 
 #### [First/Last Occ in Sorted Array Or Count Of A Element](Searching/FirstNLastOccIndexBinSearch.cpp)
@@ -102,3 +104,59 @@ Merge wale concept se to ho jayega pr O(log(n1)) me socho<br>
     }
 
 }
+</details>
+
+#### [RepeatingElement_ArrayConsistSingleRepeatingElement](Searching/RepeatingElement.cpp)
+<details>
+<summary>Hint</summary>
+<br>
+{ 
+    Problem: All elements from 0 to max are present exactly once except repeated
+
+    if(retpeated is even no of times) xor arr with 0 to max and get final ans
+    else 
+    sort array and chk if v[i] != i and print the ans
+ }
+</details>
+
+#### [RepeatedElementOptimizedBySumAndChainMethod](Searching/RepeatingElementOptimizedWithChain.cpp)
+<details>
+<summary>Hint</summary>
+<br>
+{ 
+    Problem: All elements from 0 to max are present exactly once except repeated
+
+    Solution 1 we can use arrsum, 0toMaxi Sum, n-maxi to count freq of rep ele 
+
+    Solution 2 When Smallest Element is 1 : As we do in linked list first detect loop then put slow at 0th idx then inc both slow fast by 1
+    first assign v[0] to both slow and fast
+    
+    then inc slow = v[slow] & fast = v[v[fast]];
+
+    once they meet we will detect loop then put slow = v[0] again
+
+    now increment slow = v[slow] and fast = v[fast] with same speed
+    They will meet at repeated point and return slow if mini = 1 
+    
+    agar 0 bhi hota to sabme add 1 kr dete last me slow-1 return kr dete
+
+
+}
+</details>
+
+
+#### [Book Allocation MinNoOfConsecutivePagesToEachStudent](Searching/BookAllocationMinPages.cpp)
+<details>
+<summary>Hint</summary>
+<br>
+{ 
+Ans lies in a range and we can say that if mid is ans then there is a chance for left otherwise find ans in right we will apply bin search and to chk mid is ans or not we will make isPossible funcn
+
+It will take v,mid,k as parameters where k = no of students
+we will distribut currsum pages and inc stud count until currsum<=mid
+then we will return true or false accordingly using studct<=k 
+
+}
+</details>
+
+

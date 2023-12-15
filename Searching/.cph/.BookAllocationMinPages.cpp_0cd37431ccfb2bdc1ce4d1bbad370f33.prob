@@ -1,0 +1,1 @@
+{"name":"Local: BookAllocationMinPages","url":"c:\\Users\\gauta\\DSA\\Searching\\BookAllocationMinPages.cpp","tests":[{"id":1702636637206,"input":"3\n8 3\n10 5 30 1 2 5 10 10\n4 2\n10 20 30 40\n3 1\n10 20 30","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\gauta\\DSA\\Searching\\BookAllocationMinPages.cpp","group":"local","local":true}
