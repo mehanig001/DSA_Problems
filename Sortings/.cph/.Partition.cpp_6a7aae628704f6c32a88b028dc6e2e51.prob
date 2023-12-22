@@ -1,0 +1,1 @@
+{"name":"Local: Partition","url":"c:\\Users\\gauta\\DSA\\Sortings\\Partition.cpp","tests":[{"id":1702976943439,"input":"4\n6\n3 8 6 12 10 7\n6\n1 2 3 4 5 6\n7\n7 6 5 4 3 2 1\n8\n5 3 8 4 2 7 1 10","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\gauta\\DSA\\Sortings\\Partition.cpp","group":"local","local":true}
