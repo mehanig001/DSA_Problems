@@ -349,11 +349,144 @@ Unstable are:<br>
         else{
             swap(v[ei],v[mid]);
             ei--;
-            
+
             //here we have not increased the mid window size of 1s because we sent 2 to the last
             //but we will process the swapped element came to mid once again
         }
     }
+
+}
+
+</details>
+
+
+#### [MergeIntervals](Sortings/MergeIntervals.cpp)
+<details>
+<summary>Hint</summary>
+{
+  
+    sort given pairs of intervals according to the first value and check if curr.second merges with next.first or not
+    
+
+}
+
+</details>
+
+#### [Meeting Maximum Guests](Sortings/MeetMaximumGuest.cpp)
+<details>
+<summary>Hint</summary>
+{
+  
+    merge arrival and departure after sorting that will ensure
+    that arrival of every guest is increasing the count of current guests by 1 and departure is decreasing take max count possible
+
+
+}
+
+</details>
+
+#### [Cycle Sort](Sortings/CycleSort.cpp)
+<details>
+<summary>Hint</summary>
+{
+
+    It can also be used to count minimum number of items present in the array
+
+        Cycle Sort for Distinct elements present in the array
+        Choose current position as cycle start and current item 
+        to find the right position of item count number of lesser items after the current present in the array
+
+        move item to its correct position and choose the correct position's element as item
+
+        repeat the process until a cycle form i.e. cs = correct pos
+
+        increment the index and do the same
+
+
+}
+
+</details>
+
+#### [Heap Sort](Sortings/HeapSort.cpp)
+<details>
+<summary>Hint</summary>
+{
+  
+    First step is to build Max Heap to do this we have to heapify all the non leaf childs from the bottom
+
+    heapify means that child should be smaller than parents
+
+    after that one by one move the largest element to the last of the array
+    to do this simply swap(v[0],v[last]) last--;
+    now we need to heapify the structure again so call heapify(v,last,0)
+
+    left child is i*2+1
+    right child is i*2+2
+
+    It is the extension of Selection sort uses Heap Structure
+
+
+}
+
+</details>
+
+#### [Count Sort](Sortings/CountSort.cpp)
+<details>
+<summary>Hint</summary>
+{
+    
+    TC-> O(N+K)
+    Used when elements present in the array are in range k comparable to n
+
+    We maintain a count array of size k which counts frequency of elements
+
+    To maintain stabilty what we can do is we can use prefix sum of count elemnts 
+
+    we will maintain an output arr of size n 
+    and start traversing from the last index 
+    we will place the current element from v in output using prefix of count to find correct position and decrease the count of that element by 1
+
+    at last we will copy elements from output to original array 
+
+
+}
+
+</details>
+
+#### [Radix Sort](Sortings/RadixSort.cpp)
+<details>
+<summary>Hint</summary>
+{
+  
+    It increases the range for counting sort basically it calc the no of digits say d in maximum element
+    and use counting sort that number of time for every digits from last
+
+    TC-> O(d*(N+b)) where be is range of digits commonly 10 (0 to 9) for decimal rep
+    we can use (v[i]/place)%10 to find index
+    
+
+}
+
+</details>
+
+#### [Bucket Sort](Sortings/CycleSort.cpp)
+<details>
+<summary>Hint</summary>
+{
+  
+    It is very useful for uniformly distributed items 
+
+    we make k buckets divide its range uniformly from 0 to maxi+1 EXAMPLE: 0 to 99 we have range of 10  for k = 10 and 20 for k = 5 
+
+    we use vector<vector<ll>> v(k) // that is vector of buckets
+
+    we traverse original array and place items in respective buckets
+    sort each bucket individually
+    then merge and copy the elements to the original one
+
+    TC -> O(N) if k is range of n
+    O(nsq) if we use insertion sort and data is strongly non uniformly distributed
+    
 
 }
 
