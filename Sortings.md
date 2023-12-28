@@ -390,7 +390,7 @@ Unstable are:<br>
 <summary>Hint</summary>
 {
 
-    It can also be used to count minimum number of items present in the array
+    It can also be used to count minimum number of swaps/memory writes to sort the array
 
         Cycle Sort for Distinct elements present in the array
         Choose current position as cycle start and current item 
@@ -401,6 +401,9 @@ Unstable are:<br>
         repeat the process until a cycle form i.e. cs = correct pos
 
         increment the index and do the same
+
+        TC-> O(Nsq) in all best,avg,worst cases
+        AS-> O(1)
 
 
 }
@@ -469,7 +472,7 @@ Unstable are:<br>
 
 </details>
 
-#### [Bucket Sort](Sortings/CycleSort.cpp)
+#### [Bucket Sort](Sortings/BucketSort.cpp)
 <details>
 <summary>Hint</summary>
 {
@@ -486,7 +489,7 @@ Unstable are:<br>
 
     TC -> O(N) if k is range of n
     O(nsq) if we use insertion sort and data is strongly non uniformly distributed
-    
+
 
 }
 

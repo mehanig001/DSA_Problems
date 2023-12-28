@@ -6,7 +6,6 @@ using namespace std;
 
 void cycleSortRepeated(vector<ll> &v){
 
-    //will complete it later
     ll n = v.size();
     for(ll cs = 0; cs < n-1; cs++){
         ll pos = cs;
@@ -15,14 +14,38 @@ void cycleSortRepeated(vector<ll> &v){
         for(ll i = cs+1; i < n; i++){
             if(v[i]<item)pos++;      
         }
-        swap(v[pos],item);
+         // If item is already in correct position
+        if (pos == cs)
+            continue;
+ 
+        // ignore all duplicate  elements
+        while (item == v[pos])
+            pos += 1;
+ 
+        // put the item to it\'s right position
+        if (pos != cs)
+        {
+            swap(item, v[pos]);
+            
+        }
+       
 
         while(cs != pos){
             pos = cs;
             for(ll i = cs+1; i < n; i++){
                 if(v[i]<item)pos++;      
             }
-            swap(v[pos],item);
+
+            // ignore all duplicate  elements
+            while (item == v[pos])
+                pos += 1;
+ 
+            // put the item to it\'s right position
+            if (item != v[pos])
+            {
+                swap(item, v[pos]);
+             
+            }
             }
 
     }
