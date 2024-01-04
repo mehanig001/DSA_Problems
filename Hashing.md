@@ -53,7 +53,7 @@ For Example:
 Like Birthday Paradox Collisions are bound to happen 
 
 Two Popular ways of collision handing
-- <details>
+<details>
 <summary>Chaining</summary>
 {
   
@@ -77,7 +77,7 @@ Two Popular ways of collision handing
 }
 </details>
 
-- <details>
+<details>
 <summary>Open Addressing</summary>
 {
     
