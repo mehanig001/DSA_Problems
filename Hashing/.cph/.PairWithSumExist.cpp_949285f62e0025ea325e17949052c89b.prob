@@ -1,0 +1,1 @@
+{"name":"Local: PairWithSumExist","url":"c:\\Users\\gauta\\DSA\\Hashing\\PairWithSumExist.cpp","tests":[{"id":1704459587694,"input":"3\n5 17\n2 1 15 14 -8\n6 3\n-6 2 1 4 3 0\n1 1\n1","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\gauta\\DSA\\Hashing\\PairWithSumExist.cpp","group":"local","local":true}

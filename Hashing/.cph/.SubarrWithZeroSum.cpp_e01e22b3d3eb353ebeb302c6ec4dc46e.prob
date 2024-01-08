@@ -1,0 +1,1 @@
+{"name":"Local: SubarrWithZeroSum","url":"c:\\Users\\gauta\\DSA\\Hashing\\SubarrWithZeroSum.cpp","tests":[{"id":1704468737001,"input":"5\n6\n1 4 13 -3 -10 5\n5\n-1 4 -3 5 1\n5\n3 1 -2 5 6\n4\n5 6 0 8\n5\n8 1 -4 -4 8","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\gauta\\DSA\\Hashing\\SubarrWithZeroSum.cpp","group":"local","local":true}
