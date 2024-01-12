@@ -1,0 +1,1 @@
+{"name":"Local: LeftmostNonRepChar","url":"c:\\Users\\gauta\\DSA\\Strings\\LeftmostNonRepChar.cpp","tests":[{"id":1704977512946,"input":"4\n6\ngautam\n6\nabcbca\n3\nabb\n13\ngeeksforgeeks","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\gauta\\DSA\\Strings\\LeftmostNonRepChar.cpp","group":"local","local":true}
