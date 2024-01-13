@@ -1,0 +1,1 @@
+{"name":"Local: NaivePatternSearching","url":"c:\\Users\\gauta\\DSA\\Strings\\NaivePatternSearching.cpp","tests":[{"id":1705055892016,"input":"3\n18 3\nkeetabikeedakeekee kee\n5 3\naaaaa aaa\n6 2\ngautam gaut","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\gauta\\DSA\\Strings\\NaivePatternSearching.cpp","group":"local","local":true}

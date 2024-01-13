@@ -1,12 +1,12 @@
 # Strings
 
-Strings are the sequence of characters 
-Why? number of characters are limited 
-Advantage: Have contiguous values from 'a' to 'z'  or 'A' to 'Z'
-C++ stores acc to ASCII value 97 for 'a' and 65 for 'A'  48 for '0' and 0 for '\0'
+**Strings are the sequence of characters** <br>
+>Why? number of characters are limited <br>
+Advantage: Have contiguous values from 'a' to 'z'  or 'A' to 'Z'<br>
+C++ stores acc to ASCII value 97 for 'a' and 65 for 'A'  48 for '0' and 0 for '\0'<br>
 
-Difference between char[] and strings
-strings are always terminated with a '\0' character and char array may or may not
+>Difference between char[] and strings<br>
+strings are always terminated with a '\0' character and char array may or may not<br>
 
 
 ### [Famous Functions](Strings/FamousFuctions.cpp)
@@ -17,21 +17,24 @@ strings are always terminated with a '\0' character and char array may or may no
  - tolower(char &ch)  toupper(char &ch)  can be used like for(auto &ch : str){tolower(ch)};
  - sort aur reverse to hai hi stl wale
 
-### Problems & Codes
+<br>
 
+---
+### Problems & Codes
+---
 
 
 #### [Print Freq in Sorted Order]()
 <details>
 <summary>Hint</summary>
-{
+
     
     Naive sol: O(Nsq) two loops count indvidual frequencies of every char
     O(N): maintain a count arr[26] = {0} for char 'a' to 'z' 
     and traverse string and do count[str[i]-'a']++; to increase the count of freq
     print from count array as char = i+'a'  and freq = count[i];
 
-}
+
 
 </details>
 
@@ -41,7 +44,7 @@ strings are always terminated with a '\0' character and char array may or may no
 #### [Is Subsequence Present In A Given String](Strings/IsSubseqPresent.cpp)
 <details>
 <summary>Hint</summary>
-{
+
     
     Subsequence ka matlab kuch characters agar hata de strings se fir string ko same order me read kre
     //Direct Method s1.find(s2) agar return kare idx from 0 to s1.size()-1 to YES o/w NO
@@ -60,7 +63,7 @@ strings are always terminated with a '\0' character and char array may or may no
 
 
 
-}
+
 
 </details>
 
@@ -70,7 +73,7 @@ strings are always terminated with a '\0' character and char array may or may no
 #### [IsPalindrome](Strings/IsPalindrome.cpp)
 <details>
 <summary>Hint</summary>
-{
+
     
     Naive sol reverse and check if s1 == s2 or not
 
@@ -87,7 +90,7 @@ strings are always terminated with a '\0' character and char array may or may no
     base case si>ei return true;
     return str[si] == str[ei] && f(str,si+1,ei-1)
 
-}
+
 
 </details>
 
@@ -97,7 +100,7 @@ strings are always terminated with a '\0' character and char array may or may no
 #### [Check of Anagram/IsPermutation](Strings/IsAnagram_Permutation.cpp)
 <details>
 <summary>Hint</summary>
-{
+
     
     Naive sol sort both and equate
 
@@ -108,7 +111,7 @@ strings are always terminated with a '\0' character and char array may or may no
 
 
 
-}
+
 
 </details>
 
@@ -118,7 +121,7 @@ strings are always terminated with a '\0' character and char array may or may no
 #### [Leftmost Repeating Character](Strings/LeftmostRepeatingCharacter.cpp)
 <details>
 <summary>Hint</summary>
-{
+
     
     Output the index of leftmost character that repeats in a given string
 
@@ -139,7 +142,7 @@ strings are always terminated with a '\0' character and char array may or may no
         traverse string from right to left and take ans = -1
         //maintain a boolean visited array for  each char if(it is visited)set ans = i;
 
-}
+
 
 </details>
 
@@ -149,7 +152,7 @@ strings are always terminated with a '\0' character and char array may or may no
 #### [Leftmost Non-Repeating Charater](Strings/LeftmostNonRepChar.cpp)
 <details>
 <summary>Hint</summary>
-{
+
     
     Naive sol O(Nsq) two loops
 
@@ -167,7 +170,7 @@ strings are always terminated with a '\0' character and char array may or may no
 
 
 
-}
+
 
 </details>
 
@@ -177,7 +180,7 @@ strings are always terminated with a '\0' character and char array may or may no
 #### [Reverse Words In A Given String](Strings/ReverseWordsInAnString.cpp)
 <details>
 <summary>Hint</summary>
-{
+
     
     Naive sol : Maintain a stack of words and print them
 
@@ -186,63 +189,117 @@ strings are always terminated with a '\0' character and char array may or may no
     take care of corner condition i.e. for first word
 
 
-}
 
 </details>
 
 
 
 
-#### [](Strings)
+#### [Naive Pattern Searching In Given String](Strings/NaivePatternSearching.cpp)
 <details>
 <summary>Hint</summary>
-{
-    
-    Naive sol 
 
-}
+    Har window ke liye chk kro kya wo pattern se match krta hai kya 
+    agar sare distincts char hai pattern me to TC  O(N)
+    repeated bhi hai to TC O((N-M+1)*M)
+    Sare index print krte jao jaha bhi pattern complete hua uska i-m+1 th idx
+    
+
 
 </details>
 
 
 
 
-#### [](Strings)
+#### [Rabin Karp Algo For Pattern Searching (Rolling Hash Technique)](Strings/RabinKarpPatternSearching.cpp)
 <details>
 <summary>Hint</summary>
-{
-    
-    Naive sol 
 
-}
+    
+    It uses rolling hash teqnique basically we compute hash func for first window of str and pattern
+
+    for every window we check if hash value matches we will compare for that window only
+
+    we will calculate hash value for every next window using previous windows
+
+    we can choose weighted sum as a hash function and taking%m to avoid overflows m shlould  be big and prime
+
+
 
 </details>
 
 
 
 
-#### [](Strings)
+#### [Constructing Longest Prefix Suffix array](Strings/LongestProperPerfixSuffixArray.cpp)
 <details>
 <summary>Hint</summary>
-{
-    
-    Naive sol 
 
-}
+    
+    Naive sol : O(N cube)
+    we will fill lps array using longPropPreSuff(str,i+1)  for i = 0 to n
+
+    longPropPreSuff(str,n) what will it do 
+    it will check for len = n-1 to len = 1 whenever prefix = suffix 
+        i.e. all str[i] = str[n-len+i] where i ranges from 0 to len-1
+        return len
+    
+    otherwise return 0
+
+    Efficient Solution O(N): atmost 2n 
+    //we will compute lps[i] using len and lps[0] to lps[i-1]
+
+    //lps[0] = 0 always
+
+    ll i = 1, len = 0;
+
+    while(i < n){
+        if(str[i] == str[len]){
+            len++; lps[i] = len; i++;
+        }
+        else{
+            if(len == 0){
+                lps[i] = 0; i++;
+            }
+            else{
+                len = lps[i-1];
+            }
+            //we are not incrementing i here and checking for valid len from previous lps values
+        }
+    }
+
+
+
 
 </details>
 
 
 
 
-#### [](Strings)
+#### [KMP Algo For Pattern Searching](Strings/KMP_PatternSearching_LPS.cpp)
 <details>
 <summary>Hint</summary>
-{
-    
-    Naive sol 
 
-}
+    
+    we will use above method to precompute lps array of pattern 
+    now we will check for every window and shift pattern accordingly
+
+    ll i = 0, j = 0;
+    while(i < n){
+        if(str[i] == pattern[j]){
+            i++; j++;
+        }
+        if(j == m){
+            print(i-m) and set j = lps[m-1];
+            //we will chk for next window and had set j accordingly to shift pattern
+        }
+        else if(i < n && pattern[j] != str[i]){
+            if(j == 0)i++;
+            else j = lps[j-1]; again we shifted pattern
+        }
+    }
+
+
 
 </details>
 
