@@ -1,0 +1,1 @@
+{"name":"Local: LexographicRankOfGivenString","url":"c:\\Users\\gauta\\DSA\\Strings\\LexographicRankOfGivenString.cpp","tests":[{"id":1705232721720,"input":"3\n4\nABCD\n4\nDCBA\n6\nSTRING","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\gauta\\DSA\\Strings\\LexographicRankOfGivenString.cpp","group":"local","local":true}

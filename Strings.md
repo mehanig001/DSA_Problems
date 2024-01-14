@@ -305,3 +305,87 @@ strings are always terminated with a '\0' character and char array may or may no
 
 
 
+
+
+#### [Check If Strings Are Rotated](Strings/IsRotated.cpp)
+<details>
+<summary>Hint</summary>
+
+    Naive O(Nsq) solution check all roatations of s1 possible one by one at any point if s1 equals s2 return true
+
+    Optimized: (O(N)*const) Can use % operator to find presence of s2 in s1 but we have another badhiya option
+    concatenate s1 with itself i.e. s1 += s1;
+    now using stl find funcn if s1.find(s2) return a valid idx from 0 to 2n return yes o/w no
+
+
+</details>
+
+
+#### [Anagram Search For Given Pattern In Given String](Strings/IsPatternPresentInAnyAnagram.cpp)
+<details>
+<summary>Hint</summary>
+
+    Naive sol for every anagram(permutation of pattern) chk its presence in str O(Fact(m)* m)
+
+    
+    take two freq arrays of const size i.e.256 
+    compute freq of pattern in arr1 and first window in arr 2
+    for every next window compute freq using prev window
+    at any point if to freq arrays equals return true
+
+    At last if no match found return false;
+
+
+</details>
+
+
+#### [Lexographic Rank Calculation For Given String](Strings/LexographicRankOfGivenString.cpp)
+<details>
+<summary>Hint</summary>
+
+    NAIVE Solution Check Its Rank in all of its permutation possible in lexo order
+    //Suppose we have only distinct chars in string
+    //we can maintain a count array to find number of lexo smaller chars present in right side of curr
+
+    to do this we maintain a count/freq array then we take prefix of this
+    initialize res by 1
+    to get required count we take count[str[i]-1] 
+    and we have a multiplier mul starting from n-1 to 1 factorial respectively
+    at this time we will add mul*count[str[i]-1]
+    then we remove curr leftmost char from count arr
+    how? by dec freq for all char j = count[str[i]] to j < 256  by 1
+
+    at last return res
+    
+    
+
+</details>
+
+
+#### [Return Length Of Longest Substring With All Distinct Characters](Strings/LengthOfLongestSubstringWithUniqueChars.cpp)
+<details>
+<summary>Hint</summary>
+
+    O(Ncube) For all possible substrings take maxeln for substring having all characters distinct
+
+    O(Nsq) Improved naive sol here we will maintain a visited for every char starting with i for uniqueness
+
+    O(N) we will take maxlen for characters in the following way:
+        eg:      a b c a d b d
+        maxEnd:  1 2 3 3 4 4 2
+
+        we will take max of maxEnd as ans
+
+        to calc maxEnd we need a prevIdx array init with -1 as all entries 
+            which will give the prev rightmost occurance for curr char
+        as we see a char we will set prevIdx[str[j]] = j
+        to calc length we use j-i+1  //where j is for curr end and i = max(i,prev[str[j]]+1)
+
+    
+        return ans
+
+</details>
+
+
+
+
