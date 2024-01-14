@@ -348,6 +348,7 @@ strings are always terminated with a '\0' character and char array may or may no
     //we can maintain a count array to find number of lexo smaller chars present in right side of curr
 
     to do this we maintain a count/freq array then we take prefix of this
+    take prefix sum of count into count
     initialize res by 1
     to get required count we take count[str[i]-1] 
     and we have a multiplier mul starting from n-1 to 1 factorial respectively

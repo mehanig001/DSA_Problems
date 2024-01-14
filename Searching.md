@@ -9,60 +9,63 @@
 #### [Binary Search Rec And Iterative Both](Searching/BinarySearch.cpp)
 <details>
 <summary>Hint</summary>
-<br>
-{ 
-Take n,si,ei as a parameter and check if mid element is equal to key if yes return mid 
-else if midval > key search in left part o/w search in right half 
-don't forget to update mid 
-}
+
+    
+    Take n,si,ei as a parameter and check if mid element is equal to key if yes return mid 
+    else if midval > key search in left part o/w search in right half 
+    don't forget to update mid 
+
 </details>
 
 #### [First/Last Occ in Sorted Array Or Count Of A Element](Searching/FirstNLastOccIndexBinSearch.cpp)
 <details>
 <summary>Hint</summary>
-Instead of using while store ans and search for left for left most occ and right for rightmost
-//Take care of corner cases for eg: idx = 0 for leftmost and n-1 for rightmost<br>
-count = r-l+1;
+
+    Instead of using while store ans and search for left for left most occ and right for rightmost
+    //Take care of corner cases for eg: idx = 0 for leftmost and n-1 for rightmost
+    count = r-l+1;
+
 </details>
 
 #### [Search In An Infinite Sorted Array](Searching/Search_InfiniteArray.cpp)
 <details>
 <summary>Hint</summary>
-Seprately check for 0th idx and then take mid = 1 and use condition of sorting <br>
-if v[mid] == key return mid;
-if v[mid] < key then i*=2; 
-else v[mid] > key search between mid/2+1 to mid-1 <br>
+    Seprately check for 0th idx and then take mid = 1 and use condition of sorting 
+    if v[mid] == key return mid;
+    if v[mid] < key then i*=2; 
+    else v[mid] > key search between mid/2+1 to mid-1 
 
-nhi mila to -1 return karne kaa<br>
+    nhi mila to -1 return karne kaa
 </details>
 
 #### [Find SqRoot Floor value](Searching/SqRootFloorValue.cpp)
 <details>
 <summary>Hint</summary>
-<br>
-agar mid*mid > n to left me <br>
-agar mid*mid < n hai to pahle ans store kr lo fir right me search kro<br>
+
+    agar mid*mid > n to left me 
+    agar mid*mid < n hai to pahle ans store kr lo fir right me search kro
 </details>
 
 #### [IMP: Search In Sorted And Rotated Array](Searching/Search_SortedRotatedArray.cpp)
 <details>
 <summary>Hint</summary>
-Graph se socho corner elements ka use kr skte hai
+    Graph se socho corner elements ka use kr skte hai
 
-//Left part sorted hoga agar v[mid]>=key hai aur v[si]<=key
-else right ke liye rec call kr skte hai
-<br>
+    //Left part sorted hoga agar v[mid]>=key hai aur v[si]<=key
+    else right ke liye rec call kr skte hai
+
 
 </details>
 
 #### [Find Peak Element Greater than Neighbours](Searching/PeakElementGreaterThanNeighbours.cpp)
 <details>
 <summary>Hint</summary>
-Corner conditions v[0]>v[1] return v[0]; Similarly if v[n-2]< v[n-1] return v[n-1];<br>
-Now if v[mid]>= v[mid-1] && v[mid]>=v[mid+1] return mid;
-// dono chote nahi hai mtlb ek to bada hai<br>
-else if v[mid-1] > v[mid] 100 % left part contains a peak
-else right me<br>
+
+    Corner conditions v[0]>v[1] return v[0]; Similarly if v[n-2]< v[n-1] return v[n-1];
+    Now if v[mid]>= v[mid-1] && v[mid]>=v[mid+1] return mid;
+    // dono chote nahi hai mtlb ek to bada hai
+    else if v[mid-1] > v[mid] 100 % left part contains a peak
+    else right me
 
 
 </details>
@@ -70,31 +73,34 @@ else right me<br>
 #### [Two Pointer PairSum = Given Sum In Sorted Array](Searching/TwoPointer.cpp)
 <details>
 <summary>Hint</summary>
-chk if sum is less lft ptr++; else right ptr--  while(leftptr < rightptr)<br>
+
+    chk if sum is less lft ptr++; else right ptr--  while(leftptr < rightpt
 </details>
 
 #### [Triplet Sum In Sorted Array Equal To Given Sum](Searching/PairOfThreeEqualsGivenSum.cpp)
 <details>
 <summary>Hint</summary>
-Fix i = 0 to < n-2 <br>
-find two pair sum by two pointer approach for every left idx i+1 to last for sum = s-v[i] k liye do ki pair<br>
+
+    Fix i = 0 to < n-2 
+    find two pair sum by two pointer approach for every left idx i+1 to last for sum = s-v[i] k liye do ki pair
 </details>
 
 #### [Imp: Median Of Two Sorted And Merged Array ](Searching/MedianOf2SortedArr.cpp)
 <details>
 <summary>Hint</summary>
-Merge wale concept se to ho jayega pr O(log(n1)) me socho<br>
 
-{
+    Merge wale concept se to ho jayega pr O(log(n1)) me socho
+
+
     Binary Search ka concept aise lagega ki <br>
 
     ....,max1,min1,.....            //i = (si+ei)/2  -->ei ko phle n lenge 
-<br>
+
     ...........,max2,min2,......
-<br>
+
     if(max1 <= min2 && max2 <= min1){
         n1+n2 even to return double max of two + min of two div by 2
-        odd ho to max of two ka double return kr do<br>
+        odd ho to max of two ka double return kr do
     }
     else if(max1 > min2){
         ei = i-1;
@@ -103,27 +109,27 @@ Merge wale concept se to ho jayega pr O(log(n1)) me socho<br>
         si = i+1;
     }
 
-}
+
 </details>
 
 #### [RepeatingElement_ArrayConsistSingleRepeatingElement](Searching/RepeatingElement.cpp)
 <details>
 <summary>Hint</summary>
 <br>
-{ 
+ 
     Problem: All elements from 0 to max are present exactly once except repeated
 
     if(retpeated is even no of times) xor arr with 0 to max and get final ans
     else 
     sort array and chk if v[i] != i and print the ans
- }
+ 
 </details>
 
 #### [RepeatedElementOptimizedBySumAndChainMethod](Searching/RepeatingElementOptimizedWithChain.cpp)
 <details>
 <summary>Hint</summary>
 <br>
-{ 
+ 
     Problem: All elements from 0 to max are present exactly once except repeated
 
     Solution 1 we can use arrsum, 0toMaxi Sum, n-maxi to count freq of rep ele 
@@ -141,7 +147,7 @@ Merge wale concept se to ho jayega pr O(log(n1)) me socho<br>
     agar 0 bhi hota to sabme add 1 kr dete last me slow-1 return kr dete
 
 
-}
+
 </details>
 
 
@@ -149,14 +155,14 @@ Merge wale concept se to ho jayega pr O(log(n1)) me socho<br>
 <details>
 <summary>Hint</summary>
 <br>
-{ 
-Ans lies in a range and we can say that if mid is ans then there is a chance for left otherwise find ans in right we will apply bin search and to chk mid is ans or not we will make isPossible funcn
+ 
+    Ans lies in a range and we can say that if mid is ans then there is a chance for left otherwise find ans in right we will apply bin search and to chk mid is ans or not we will make isPossible funcn
 
-It will take v,mid,k as parameters where k = no of students
-we will distribut currsum pages and inc stud count until currsum<=mid
-then we will return true or false accordingly using studct<=k 
+    It will take v,mid,k as parameters where k = no of students
+    we will distribut currsum pages and inc stud count until currsum<=mid
+    then we will return true or false accordingly using studct<=k 
 
-}
+
 </details>
 
 

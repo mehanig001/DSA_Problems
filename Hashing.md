@@ -1,20 +1,20 @@
 # Hashing bole to O(1) in avg
 <details>
 <summary>Man ki baat</summary>
-{
+
   
     Ye to bawal cheez hai be
     Search/Insert/Delete in O(1) in avg
     
 
-}
+
 </details>
 
 
 ### Direct Adress Table
 <details>
 <summary>Matlab</summary>
-{
+
   
     Suppose we have to count frequency of characters appearing in a given string
     we can maintain an array of size 26 whose index will represent characters from 'a' to 'z'
@@ -25,7 +25,6 @@
 
     
 
-}
 </details>
 
 ### Hash functions
@@ -55,7 +54,7 @@ Like Birthday Paradox Collisions are bound to happen
 Two Popular ways of collision handing
 <details>
 <summary>Chaining</summary>
-{
+
   
     If things collide we add the next key as a next item in the same box
     DS for Storing chain are:
@@ -74,12 +73,12 @@ Two Popular ways of collision handing
 
     
 
-}
+
 </details>
 
 <details>
 <summary>Open Addressing</summary>
-{
+
     
     Cache Freindly
     We find next available slot to insert elements in hash table using these Probing
@@ -115,7 +114,7 @@ Two Popular ways of collision handing
 
     
 
-}
+
 </details>
 
 
@@ -128,13 +127,13 @@ Two Popular ways of collision handing
 #### [Intersection Of 2 unsorted Arrays](Hashing/IntersectionsOf2UnsortedArr.cpp)
 <details>
 <summary>Hint</summary>
-{
+
   
     Use unordered_set first insert values of 1 array 
     then find val is already present in set for every value in other array
     
 
-}
+
 
 </details>
 
@@ -142,11 +141,11 @@ Two Popular ways of collision handing
 #### [Union Of 2 Unsorted Arrays ](Hashing/Union2UnsortedArr.cpp)
 <details>
 <summary>Hint</summary>
-{
+
   
     Insert all values in unordered_set and print them
 
-}
+
 
 </details>
 
@@ -154,7 +153,7 @@ Two Popular ways of collision handing
 #### [Pair With Given Sum Exist Or Not](Hashing/PairWithSumExist.cpp)
 <details>
 <summary>Hint</summary>
-{
+
     
     Sort the array and using two pointers if(v[l]+ v[r]) == sum  > or <  work accordingly until l<r
     O(NlogN)
@@ -170,14 +169,14 @@ Two Popular ways of collision handing
     Alter:  insert elements in new unordered set before this check if sum - v[i] is already present in set if yes then print yes
     
 
-}
+
 
 </details>
 
 #### [Subarray With Zero Sum Exist Or Not](Hashing/SubarrWithZeroSum.cpp)
 <details>
 <summary>Hint</summary>
-{
+
     
     Naive: O(Nsq) take every ith element as the begining element of the subarray and check for the zero sum taking all possible subarray sum including from j = i+1 to j < n 
 
@@ -189,14 +188,14 @@ Two Popular ways of collision handing
     
     to chk this we maintain an unordered_set and chk for the presence of elements before inserting pre val into it
 
-}
+
 
 </details>
 
 #### [Subarray With Given Sum Exist Or Not](Hashing/SubArrWithGivenSum.cpp)
 <details>
 <summary>Hint</summary>
-{
+
     
     Naive sol is same we have to chk every subarray sum possible in O(Nsq)
 
@@ -208,7 +207,7 @@ Two Popular ways of collision handing
     we will chk if(pre[i] == sum) OR pre[i]-sum is already present in set or not
 
 
-}
+
 
 </details>
 
@@ -216,7 +215,7 @@ Two Popular ways of collision handing
 #### [Return Length Of Longest Subarray With Given Sum](Hashing/LongestSubarrayWithGivenSum.cpp)
 <details>
 <summary>Hint</summary>
-{
+
     
     Naive sol is same we have to chk every subarray sum possible & take maxlength in O(Nsq)
 
@@ -236,7 +235,7 @@ Two Popular ways of collision handing
     
 
 
-}
+
 
 </details>
 
@@ -244,7 +243,7 @@ Two Popular ways of collision handing
 #### [Max Length Of Subarray Containing Equal 0s and 1s in Binary Arr](Hashing/LongestSubbWithEqual0sAnd1sBinaryArr.cpp)
 <details>
 <summary>Hint</summary>
-{
+
     
     Naive sol is same we have to chk every subarray sum possible in O(Nsq)
 
@@ -252,7 +251,7 @@ Two Popular ways of collision handing
     to find maxlength use previous method of prefix sum and map 
 
 
-}
+
 
 </details>
 
@@ -260,7 +259,7 @@ Two Popular ways of collision handing
 #### [Longest common span with equal sum in binary arrays](Hashing/LongestCommonSpanEqualSumBinArr.cpp)
 <details>
 <summary>Hint</summary>
-{
+
     
     We have given two same length arrays a and b
     Naive sol is same we have to chk every subarray sum possible in a equals b & take maxlength in O(Nsq)
@@ -280,7 +279,7 @@ Two Popular ways of collision handing
     //If map doest not contain pre[i] Then insert {pre[i],i} in map
 
 
-}
+
 
 </details>
 
@@ -289,7 +288,7 @@ Two Popular ways of collision handing
 We have to return longest length of consecutive elements present in arr in any order
 <details>
 <summary>Hint</summary>
-{
+
     
     Naive sol: Sort the array O(NlogN)
 
@@ -330,7 +329,7 @@ We have to return longest length of consecutive elements present in arr in any o
 
 
 
-}
+
 
 </details>
 
@@ -338,7 +337,7 @@ We have to return longest length of consecutive elements present in arr in any o
 #### [Count Distinct Elements In Every Window](Hashing/CountDistinctElementsInEveryWindow.cpp)
 <details>
 <summary>Hint</summary>
-{
+
     
     Naive sol is same we have to chk every window possible with an empty set and return size at last
 
@@ -349,7 +348,7 @@ We have to return longest length of consecutive elements present in arr in any o
     for every itr we will print m.size();
 
 
-}
+
 
 </details>
 
@@ -357,7 +356,7 @@ We have to return longest length of consecutive elements present in arr in any o
 #### [More Than n/k occurance](Hashing/MoreThan_NbyK_occ.cpp)
 <details>
 <summary>Hint</summary>
-{
+
     
     Naive sol is maintain map with freq of all values and for freq>n/k print val
 
@@ -379,7 +378,7 @@ We have to return longest length of consecutive elements present in arr in any o
     //Check if remaining elements in m are acutal ans or not by recounting theri freq 
     if freq>n/k print them 
 
-}
+
 
 </details>
 

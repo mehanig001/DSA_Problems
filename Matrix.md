@@ -4,12 +4,12 @@
 #### [Rotate Matrix AntiClockWise By 90deg](Matrix/RotateAntiClockBy90DEG.cpp)
 <details>
 <summary>Hint</summary>
-{
+
   
     FIrst transpose then swap all columns and get required matrix
     
 
-}
+
 
 </details>
 
@@ -17,14 +17,14 @@
 #### [Spiral Matrix](Matrix/SpiralMatrix.cpp)
 <details>
 <summary>Hint</summary>
-{
+
   
     //Take care if only 1 row or 1 column matrix
 
     //Print top right bottom then left
     
 
-}
+
 
 </details>
 
@@ -33,7 +33,7 @@
 Row-Wise Sorted
 <details>
 <summary>Hint</summary>
-{
+
 
     Naive : create 1D array sort it and find median
   
@@ -50,6 +50,6 @@ Row-Wise Sorted
     
     
 
-}
+
 
 </details>
