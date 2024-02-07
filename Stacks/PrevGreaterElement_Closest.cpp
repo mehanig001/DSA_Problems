@@ -10,7 +10,7 @@ vector<ll> prevGreater(vector<ll> &v, ll n){
     ans.push_back(-1);
 
     for(ll i = 1; i < n; i++){
-        while(!s.empty() && v[s.top()] <= v[i])s.pop();
+        while(!s.empty() && v[s.top()] >= v[i])s.pop();
 
         if(s.empty())ans.push_back(-1);
         else ans.push_back(v[s.top()]);
