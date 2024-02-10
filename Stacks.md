@@ -350,7 +350,7 @@ Basic operations: push(), pop(), empty(), top();
 <details>
 <summary>Hint</summary>
 
-    Naive O(Row cube * Col cube):
+    
         implement with vector and every time calc min 
         Implement an aux stack for storing all min values min
 
@@ -409,13 +409,15 @@ Basic operations: push(), pop(), empty(), top();
 <details>
 <summary>Hint</summary>
 
-   same as infix to postfix only we have to change the following
-   traverse ch in str from right to left
-   if closing brack push and if opening pop until closing found and append it to the res string
 
-   +-*/ walo ke liye same as infix to postfix precedence wise decide krenge aur operands ko simply res me append
+    same as infix to postfix only we have to change the following
+    traverse ch in str from right to left
+    if closing brack push and if opening pop until closing found and append it to the res string
 
-   last me jo res ayega uska reverse krke return krna hai
+    +-*/ walo ke liye same as infix to postfix precedence wise decide krenge aur operands ko simply res me append
+
+    last me jo res ayega uska reverse krke return krna hai
+
 
 
 
