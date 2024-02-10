@@ -1,0 +1,1 @@
+{"name":"Local: EvaluatePrefix","url":"c:\\Users\\HP\\DSA\\DSA_Problems\\Stacks\\EvaluatePrefix.cpp","tests":[{"id":1707569687962,"input":"5\n+5*23\n+*532\n*5+32\n-5+32\n+++/22*4321","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\HP\\DSA\\DSA_Problems\\Stacks\\EvaluatePrefix.cpp","group":"local","local":true}

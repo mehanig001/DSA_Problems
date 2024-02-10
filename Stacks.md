@@ -346,5 +346,115 @@ Basic operations: push(), pop(), empty(), top();
 </details>
 
 
+#### [GetMin Function Implementation](Stacks/GetMin.cpp)
+<details>
+<summary>Hint</summary>
+
+    Naive O(Row cube * Col cube):
+        implement with vector and every time calc min 
+        Implement an aux stack for storing all min values min
+
+
+    
+    Efficient Assuming All positive values to be stored
+
+    we push first element as a min and whenever we find an element greater than min we simply push that into the stack
+    if we found and element less than min 
+    we push a negative val to stack as x-min and update min to x
+    (to retain previous min we can do min-x  where x is top element in peek and pop operations)
+
+
+    For storing negative values also what we can do is 
+    in push we do 2*x-min if x < min
+    peek t<min ? min : t
+    pop if(top<min) res = min and min = 2*min-top
+
+
+
+    
+
+
+</details>
+
+
+#### [Infix To Postfix](Stacks/InfixToPostfix.cpp)
+<details>
+<summary>Hint</summary>
+
+    Naive Add Parenthesis according to the pecedence and associativity and then start converting infix to postfix from innermost parenthesis to the outermost and remove parenthesis
+
+    Efficient using stack st of operators
+    create an empty stack and res = "";
+
+    for every ch in str 
+    if ch is operand res+=ch
+    else 
+        if ch is '(' push ch in stack st
+        if ch is ')' pop items from stack and append to res until we found corresponding opening
+        else + - * / ^
+            if(precedence of top < precedence of ch) st.push(ch)
+            else  jab tak usse kam precedence ka top na mile pop krke res me append krte jao last me ch push kr dena
+            equal ke liye associativity use krna jaise agar *,/ or +,- hai to higher wala lagega ki lower precedence wala
+            
+
+    
+    last me append remaining stack elements to the res
+
+
+
+</details>
+
+
+#### [Infix To Prefix](Stacks/InfixToPrefix.cpp)
+<details>
+<summary>Hint</summary>
+
+   same as infix to postfix only we have to change the following
+   traverse ch in str from right to left
+   if closing brack push and if opening pop until closing found and append it to the res string
+
+   +-*/ walo ke liye same as infix to postfix precedence wise decide krenge aur operands ko simply res me append
+
+   last me jo res ayega uska reverse krke return krna hai
+
+
+
+</details>
+
+
+#### [Evaluate Postfix](Stacks/EvaluateProstfix.cpp)
+<details>
+<summary>Hint</summary>
+
+    This time we are going to create a stack of operand 
+    whenever we find a operator we will calc op2 pop and op1 pop
+    then we calc val as op1(op)op2
+    push val to stack
+
+
+    At last return st.top()
+
+
+
+</details>
+
+
+#### [Evaluate Prefix](Stacks/EvaluatePrefix.cpp)
+<details>
+<summary>Hint</summary>
+
+    
+    traverse the str from reight to left and do the same as in eval of postfix
+    
+    This time we are going to create a stack of operand 
+    whenever we find a operator we will calc op2 pop and op1 pop
+    then we calc val as op1(op)op2
+    push val to stack
+
+
+    At last return st.top()
+
+</details>
+
 
 
