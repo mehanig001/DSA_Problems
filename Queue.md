@@ -1,4 +1,4 @@
-# Stacks
+# Queue
 ---
 **FIFO First IN FIRST OUT** <br>
 Basic operations: enque(), deque(), empty(), size(), getFront(), getRear(), isFull();
