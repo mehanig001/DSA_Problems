@@ -1,0 +1,1 @@
+{"name":"Local: FirstPetrolPump","url":"c:\\Users\\HP\\DSA\\DSA_Problems\\Deque\\FirstPetrolPump.cpp","tests":[{"id":1708874015255,"input":"3\n4\n4 8 7 4\n6 5 3 5\n2 \n4 8\n5 6\n3\n8 9 4\n5 10 12","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\HP\\DSA\\DSA_Problems\\Deque\\FirstPetrolPump.cpp","group":"local","local":true}
