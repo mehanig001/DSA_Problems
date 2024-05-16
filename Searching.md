@@ -70,11 +70,11 @@
 
 </details>
 
-#### [Two Pointer PairSum = Given Sum In Sorted Array](Searching/TwoPointer.cpp)
+#### [Two Pointer PairSum = Given Sum In Sorted Array](Searching/TwoPointerPairSumInSorted.cpp)
 <details>
 <summary>Hint</summary>
 
-    chk if sum is less lft ptr++; else right ptr--  while(leftptr < rightpt
+    chk if sum is less lft ptr++; else right ptr--  while(leftptr < rightptr)
 </details>
 
 #### [Triplet Sum In Sorted Array Equal To Given Sum](Searching/PairOfThreeEqualsGivenSum.cpp)
