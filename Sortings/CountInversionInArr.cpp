@@ -21,7 +21,7 @@ ll mergeCountInversion(vector<ll> &v, ll si, ll mid, ll ei){
         else{
             //3rd case
             temp[k++] = v[j++];
-            ans = ans + mid-si+1 - (i-1);
+            ans = ans + mid-si+1 - (i-si-1);
             //right wala ith wale se chota hai to uske age walo se bhi chota hoga 
         }
     }

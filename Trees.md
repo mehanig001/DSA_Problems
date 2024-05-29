@@ -2,9 +2,9 @@
 
 
 Basic variations: 
-Trie, SuffixTree, BinaryIdxTree, SegmentTree, AVL
+Trie, SuffixTree, BinaryIdxTree, SegmentTree, AVL <br>
 Basic Terms:
-node, root, leaf, child, parent, subtree, descendents, ancestor, degree, internal
+node, root, leaf, child, parent, subtree, descendents, ancestor, degree, internal <br>
 
 
 ### Applications
@@ -18,10 +18,10 @@ node, root, leaf, child, parent, subtree, descendents, ancestor, degree, interna
 <br>
 
 
-Binary Tree: Atmost two children
-Complete Tree: All levels are completely filled except possibly the last level.
-Full Binary Tree: Every node has either 0 or 2 child nodes. 
-Perfect Binary Tree: All internal nodes have two children, and all leaf nodes are at the same level.
+Binary Tree: Atmost two children <br>
+Complete Tree: All levels are completely filled except possibly the last level. <br>
+Full Binary Tree: Every node has either 0 or 2 child nodes. <br>
+Perfect Binary Tree: All internal nodes have two children, and all leaf nodes are at the same level. <br>
 
 ---
 ### Problems & Codes
@@ -78,5 +78,11 @@ Perfect Binary Tree: All internal nodes have two children, and all leaf nodes ar
 
 
 </details>
+
+
+# [Strivers A2Z Sheet](https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2)
+
+
+
 
 

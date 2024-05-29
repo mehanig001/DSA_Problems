@@ -170,7 +170,7 @@ Unstable are:<br>
     when we are taking a right part of element before left part 
     we are getting the inversion from ith part to mid
 
-    so increment the ans while doing this by ans += (mid-si+1) - (i+1)
+    so increment the ans while doing this by ans += (mid-si+1) - (i-si+1)
     when v[j]<v[i] happens and you add v[j] to temp 
 
 
