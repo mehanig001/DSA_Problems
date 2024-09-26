@@ -18,7 +18,7 @@ copy v1 = v2 <br>
 #### Searching in unsorted and sorted array
 #### Inserting an element in between 
 #### Deleting an element from array
-#### [Second Largest](Array/SecondLargest.cpp)<br>
+#### [Second Largest](codes/Array/SecondLargest.cpp)<br>
 
 <details>
 <summary>Hint</summary>
@@ -29,18 +29,18 @@ copy v1 = v2 <br>
 
 #### Reverse An Array
 
-#### [Remove Duplicates](Array/RemoveDupli.cpp) 
+#### [Remove Duplicates](codes/Array/RemoveDupli.cpp) 
 
-#### [Move Zeroes To End](Array/MoveZeroesToLast.cpp)
+#### [Move Zeroes To End](codes/Array/MoveZeroesToLast.cpp)
 <details>
 <summary>Hint</summary>
 
     Simply add non zero and at last till n add 0s
 </details>
 
-#### [LeftRotateBy1](Array/LeftRotateBy1.cpp)
+#### [LeftRotateBy1](codes/Array/LeftRotateBy1.cpp)
 
-#### [Left Rotate By K](Array/LeftRotateByK.cpp)
+#### [Left Rotate By K](codes/Array/LeftRotateByK.cpp)
 <details>
 <summary>Hint</summary>
 
@@ -50,33 +50,33 @@ copy v1 = v2 <br>
 
 </details>
 
-#### [LeaderInArray](Array/LeadersInArray.cpp)
+#### [LeaderInArray](codes/Array/LeadersInArray.cpp)
     Matlb right me use bada koi n ho
-#### [FreqInSortedArray](Array/FreqInSortedArr.cpp)
-#### [StockByAndSell](Array/StockBuyAndSell.cpp)
+#### [FreqInSortedArray](codes/Array/FreqInSortedArr.cpp)
+#### [StockByAndSell](codes/Array/StockBuyAndSell.cpp)
 <details>
 <summary>Hint</summary>
 
     Graph ko socho jab upar badhega tab hi to profit hoga nahi to ignore
 </details>
 
-#### [Maximum Consecutive 1s in Binary Array](Array/MaxCons1sBinArray.cpp)
+#### [Maximum Consecutive 1s in Binary Array](codes/Array/MaxCons1sBinArray.cpp)
 
-#### [MaxSumSubarray](Array/MaxSumSubarray.cpp)
+#### [MaxSumSubarray](codes/Array/MaxSumSubarray.cpp)
 <details>
 <summary>Hint</summary>
 
     current element ke liye jo peeche tak ka sum aya hai wo add krna shi hai ki nhi wo chk kro aur fir maxsum le lo
 </details>
 
-#### [MaxLength of Consecutive even-odd elements](Array/MaxLenOddEvenSubarray.cpp)<br>
+#### [MaxLength of Consecutive even-odd elements](codes/Array/MaxLenOddEvenSubarray.cpp)<br>
 <details>
 <summary>Hint</summary>
 
     both even ya odd ho to count ko fir se initialize kr do
 </details>
 
-#### [Maximum Sum in Circular Subbaray](Array/MaxCircularSubArraySum.cpp)<br>
+#### [Maximum Sum in Circular Subbaray](codes/Array/MaxCircularSubArraySum.cpp)<br>
 <details>
 <summary>Hint</summary>
 
@@ -92,7 +92,7 @@ copy v1 = v2 <br>
 agar sare element neg honge to normal wala hi lena
 </details>
 
-#### [Index of Majority Element Appearing more than n/2 times](Array/MaxOccElement.cpp)
+#### [Index of Majority Element Appearing more than n/2 times](codes/Array/MaxOccElement.cpp)
 <details>
 <summary>Hint</summary>
 
@@ -104,7 +104,7 @@ agar sare element neg honge to normal wala hi lena
     ab jo idx mila chk kr lo array me us element ki occ n/2 se jyada hai ki nhi
 </details>
 
-#### [Min Grp Flips To Make All Same In BinaryArray](Array/MinGroupFlipsToMakeAllSameBinaryArray.cpp)
+#### [Min Grp Flips To Make All Same In BinaryArray](codes/Array/MinGroupFlipsToMakeAllSameBinaryArray.cpp)
 <details>
 <summary>Hint</summary>
 
@@ -112,14 +112,14 @@ agar sare element neg honge to normal wala hi lena
     to sabse pahle element hoga wo hamesha jyada ya barabar bar ayega
 </details>
 
-#### [Window Sliding Problem MaxSumOfkConsElements](Array/SlidingWindow.cpp)
+#### [Window Sliding Problem MaxSumOfkConsElements](codes/Array/SlidingWindow.cpp)
 <details>
 <summary>Hint</summary>
 
     pichla hatao naya lao according to the given situation
 </details>
 
-#### [Subarray With Given Sum Exist Or Not](Array/SubarrWithSumExist.cpp)
+#### [Subarray With Given Sum Exist Or Not](codes/Array/SubarrWithSumExist.cpp)
 <details>
 <summary>Hint</summary>
 
@@ -128,7 +128,7 @@ agar sare element neg honge to normal wala hi lena
 </details>
 
 
-#### [Prefix Sum](Array/WieghtedPrefix.cpp)
+#### [Prefix Sum](codes/Array/WieghtedPrefix.cpp)
 <details>
 <summary>Hint</summary>
 
@@ -137,7 +137,7 @@ agar sare element neg honge to normal wala hi lena
 </details>
 
 
-#### [Equilibrium Point Exist Or Not](Array/EquilibriumExist.cpp)
+#### [Equilibrium Point Exist Or Not](codes/Array/EquilibriumExist.cpp)
 <details>
 <summary>Hint</summary>
 
@@ -146,7 +146,7 @@ agar sare element neg honge to normal wala hi lena
     calc total sum for help
 </details>
 
-#### [Find Max Appearing Element in Given Ranges From Left To Right](Array/MaxAppEleInRange.cpp)
+#### [Find Max Appearing Element in Given Ranges From Left To Right](codes/Array/MaxAppEleInRange.cpp)
 <details>
 <summary>Hint</summary>
 

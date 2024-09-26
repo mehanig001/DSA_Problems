@@ -52,11 +52,11 @@ Hint: f(n) = f(n-1)+f(n-2); TC: 2^n<br>
 #### Sum up to first n
 Hint: n + sum(n-1);
 
-#### [Palindrome](Recursion/PalindromeRCrsn.cpp)
+#### [Palindrome](codes/Recursion/PalindromeRCrsn.cpp)
 
-#### [Sum Of Digits](Recursion/SumOfDigitsRcrsn.cpp)
+#### [Sum Of Digits](codes/Recursion/SumOfDigitsRcrsn.cpp)
 
-#### [Rope Cutting Problem](Recursion/RopeCuttingRcrsn.cpp)
+#### [Rope Cutting Problem](codes/Recursion/RopeCuttingRcrsn.cpp)
 
 
 I/P n,a,b,c 
@@ -72,7 +72,7 @@ O/P No of max peices in which we can cut a rope of initial length n such that re
     return 1 + res;
 </details>
 
-#### [Subsets](Recursion/SubsetRcrsn.cpp)
+#### [Subsets](codes/Recursion/SubsetRcrsn.cpp)
 Return power set of given string example "abc" 
 
 <details>
@@ -83,7 +83,7 @@ Return power set of given string example "abc"
     Second: subset(str,newstr+str[i],i+1)
 </details>
 
-#### [Tower Of Hanoi](Recursion/TowerOfHanoi.cpp)
+#### [Tower Of Hanoi](codes/Recursion/TowerOfHanoi.cpp)
 <details>
 <summary>Hint</summary>
 <br>
@@ -99,7 +99,7 @@ Return power set of given string example "abc"
     T(n) = 2T(n-1) + c
 </details>
 
-#### [Josephus Problem (last man standing)](Recursion/JosephusCircle.cpp)
+#### [Josephus Problem (last man standing)](codes/Recursion/JosephusCircle.cpp)
 n people arrange in a circle and at every itr kth people will be killed <br>
 <details>
 <summary>Hint</summary>
@@ -109,7 +109,7 @@ n people arrange in a circle and at every itr kth people will be killed <br>
     {F(n,k) = [F(n-1)+k]%n} 
 </details>
 
-#### [No of Subset equal to given sum](Recursion/EqualSumSubsets.cpp)
+#### [No of Subset equal to given sum](codes/Recursion/EqualSumSubsets.cpp)
 <details>
 <summary>Hint</summary>
 
@@ -119,7 +119,7 @@ n people arrange in a circle and at every itr kth people will be killed <br>
     //BaseCase when i == v.size() return sum == k?1:0;
 </details>
 
-#### [Permutaions of String ](Recursion/PermutationsOfString.cpp)
+#### [Permutaions of String ](codes/Recursion/PermutationsOfString.cpp)
 <details>
 <summary>Hint</summary>
 

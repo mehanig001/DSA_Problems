@@ -9,7 +9,7 @@ C++ stores acc to ASCII value 97 for 'a' and 65 for 'A'  48 for '0' and 0 for '\
 strings are always terminated with a '\0' character and char array may or may not<br>
 
 
-### [Famous Functions](Strings/FamousFuctions.cpp)
+### [Famous Functions](codes/Strings/FamousFuctions.cpp)
  - str.size() OR str.length() returns size of the sting
  - substr(idx,length)  pass starting idx value and length of substring you want
  - find(str1,str2) checks weather str2 is present in str1 or not (Returns a valid idx if present)
@@ -41,7 +41,7 @@ strings are always terminated with a '\0' character and char array may or may no
 
 
 
-#### [Is Subsequence Present In A Given String](Strings/IsSubseqPresent.cpp)
+#### [Is Subsequence Present In A Given String](codes/Strings/IsSubseqPresent.cpp)
 <details>
 <summary>Hint</summary>
 
@@ -70,7 +70,7 @@ strings are always terminated with a '\0' character and char array may or may no
 
 
 
-#### [IsPalindrome](Strings/IsPalindrome.cpp)
+#### [IsPalindrome](codes/Strings/IsPalindrome.cpp)
 <details>
 <summary>Hint</summary>
 
@@ -97,7 +97,7 @@ strings are always terminated with a '\0' character and char array may or may no
 
 
 
-#### [Check of Anagram/IsPermutation](Strings/IsAnagram_Permutation.cpp)
+#### [Check of Anagram/IsPermutation](codes/Strings/IsAnagram_Permutation.cpp)
 <details>
 <summary>Hint</summary>
 
@@ -118,7 +118,7 @@ strings are always terminated with a '\0' character and char array may or may no
 
 
 
-#### [Leftmost Repeating Character](Strings/LeftmostRepeatingCharacter.cpp)
+#### [Leftmost Repeating Character](codes/Strings/LeftmostRepeatingCharacter.cpp)
 <details>
 <summary>Hint</summary>
 
@@ -149,7 +149,7 @@ strings are always terminated with a '\0' character and char array may or may no
 
 
 
-#### [Leftmost Non-Repeating Charater](Strings/LeftmostNonRepChar.cpp)
+#### [Leftmost Non-Repeating Charater](codes/Strings/LeftmostNonRepChar.cpp)
 <details>
 <summary>Hint</summary>
 
@@ -177,7 +177,7 @@ strings are always terminated with a '\0' character and char array may or may no
 
 
 
-#### [Reverse Words In A Given String](Strings/ReverseWordsInAnString.cpp)
+#### [Reverse Words In A Given String](codes/Strings/ReverseWordsInAnString.cpp)
 <details>
 <summary>Hint</summary>
 
@@ -195,7 +195,7 @@ strings are always terminated with a '\0' character and char array may or may no
 
 
 
-#### [Naive Pattern Searching In Given String](Strings/NaivePatternSearching.cpp)
+#### [Naive Pattern Searching In Given String](codes/Strings/NaivePatternSearching.cpp)
 <details>
 <summary>Hint</summary>
 
@@ -211,7 +211,7 @@ strings are always terminated with a '\0' character and char array may or may no
 
 
 
-#### [Rabin Karp Algo For Pattern Searching (Rolling Hash Technique)](Strings/RabinKarpPatternSearching.cpp)
+#### [Rabin Karp Algo For Pattern Searching (Rolling Hash Technique)](codes/Strings/RabinKarpPatternSearching.cpp)
 <details>
 <summary>Hint</summary>
 
@@ -231,7 +231,7 @@ strings are always terminated with a '\0' character and char array may or may no
 
 
 
-#### [Constructing Longest Prefix Suffix array](Strings/LongestProperPerfixSuffixArray.cpp)
+#### [Constructing Longest Prefix Suffix array](codes/Strings/LongestProperPerfixSuffixArray.cpp)
 <details>
 <summary>Hint</summary>
 
@@ -276,7 +276,7 @@ strings are always terminated with a '\0' character and char array may or may no
 
 
 
-#### [KMP Algo For Pattern Searching](Strings/KMP_PatternSearching_LPS.cpp)
+#### [KMP Algo For Pattern Searching](codes/Strings/KMP_PatternSearching_LPS.cpp)
 <details>
 <summary>Hint</summary>
 
@@ -307,7 +307,7 @@ strings are always terminated with a '\0' character and char array may or may no
 
 
 
-#### [Check If Strings Are Rotated](Strings/IsRotated.cpp)
+#### [Check If Strings Are Rotated](codes/Strings/IsRotated.cpp)
 <details>
 <summary>Hint</summary>
 
@@ -321,7 +321,7 @@ strings are always terminated with a '\0' character and char array may or may no
 </details>
 
 
-#### [Anagram Search For Given Pattern In Given String](Strings/IsPatternPresentInAnyAnagram.cpp)
+#### [Anagram Search For Given Pattern In Given String](codes/Strings/IsPatternPresentInAnyAnagram.cpp)
 <details>
 <summary>Hint</summary>
 
@@ -339,7 +339,7 @@ strings are always terminated with a '\0' character and char array may or may no
 </details>
 
 
-#### [Lexographic Rank Calculation For Given String](Strings/LexographicRankOfGivenString.cpp)
+#### [Lexographic Rank Calculation For Given String](codes/Strings/LexographicRankOfGivenString.cpp)
 <details>
 <summary>Hint</summary>
 
@@ -363,7 +363,7 @@ strings are always terminated with a '\0' character and char array may or may no
 </details>
 
 
-#### [Return Length Of Longest Substring With All Distinct Characters](Strings/LengthOfLongestSubstringWithUniqueChars.cpp)
+#### [Return Length Of Longest Substring With All Distinct Characters](codes/Strings/LengthOfLongestSubstringWithUniqueChars.cpp)
 <details>
 <summary>Hint</summary>
 

@@ -28,7 +28,7 @@ Perfect Binary Tree: All internal nodes have two children, and all leaf nodes ar
 ---
 
 
-#### [Implementation And DepthFirstTraversal](Tree/DephtFirstTraversal.cpp)
+#### [Implementation And DepthFirstTraversal](codes/Tree/DephtFirstTraversal.cpp)
 <details>
 <summary>Hint</summary>
 
@@ -55,7 +55,7 @@ Perfect Binary Tree: All internal nodes have two children, and all leaf nodes ar
 
 </details>
 
-#### [Hieght Of A Binary Tree](Tree/HeightOfBinTree.cpp)
+#### [Hieght Of A Binary Tree](codes/Tree/HeightOfBinTree.cpp)
 <details>
 <summary>Hint</summary>
 
@@ -65,7 +65,7 @@ Perfect Binary Tree: All internal nodes have two children, and all leaf nodes ar
 
 </details>
 
-#### [Level Order Traversal](Tree/LevelOrderTraversal.cpp)
+#### [Level Order Traversal](codes/Tree/LevelOrderTraversal.cpp)
 <details>
 <summary>Hint</summary>
 
@@ -80,7 +80,9 @@ Perfect Binary Tree: All internal nodes have two children, and all leaf nodes ar
 </details>
 
 
-# [Strivers A2Z Sheet](https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2)
+# [Strivers SDE Sheet](https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2) <br>
+# [BinaryTree and BST Full HandWritten Notes](https://drive.google.com/file/d/1_6dvtrMGuFu3shAgZHe5cKf5xuBoFZiY/view?usp=drivesdk) <br>
+# [ShortNotes](https://drive.google.com/file/d/1_3E_5bprFm5tAgClN-DFzCRugAGccY_A/view?usp=drivesdk) <br>
 
 
 

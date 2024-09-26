@@ -20,7 +20,7 @@ insertAtFront(), insertAtRear(), deleteFromFront(), deleteFromRear(), getFront()
 ---
 
 
-#### [Implementation using fixed circular array](Deque/ImpWithArr.cpp)
+#### [Implementation using fixed circular array](codes/Deque/ImpWithArr.cpp)
 <details>
 <summary>Hint</summary>
 
@@ -36,7 +36,7 @@ insertAtFront(), insertAtRear(), deleteFromFront(), deleteFromRear(), getFront()
 
 </details>
 
-#### [Implementation using STL](Deque/DequeInSTL.cpp)
+#### [Implementation using STL](codes/Deque/DequeInSTL.cpp)
 <details>
 <summary>Hint</summary>
 
@@ -54,7 +54,7 @@ insertAtFront(), insertAtRear(), deleteFromFront(), deleteFromRear(), getFront()
 
 </details>
 
-#### [Find Max in all sub arr of size k using space complexity O(K)](Deque/MaxInAllSubarrOfSizeK.cpp)
+#### [Find Max in all sub arr of size k using space complexity O(K)](codes/Deque/MaxInAllSubarrOfSizeK.cpp)
 <details>
 <summary>Hint</summary>
 
@@ -92,7 +92,7 @@ insertAtFront(), insertAtRear(), deleteFromFront(), deleteFromRear(), getFront()
 
 </details>
 
-#### [First Circular Tour PetrolPumpsCap and Distance](Deque/FirstPetrolPump.cpp)
+#### [First Circular Tour PetrolPumpsCap and Distance](codes/Deque/FirstPetrolPump.cpp)
 <details>
 <summary>Hint</summary>
 

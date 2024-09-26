@@ -19,7 +19,7 @@ Basic operations: push(), pop(), empty(), top();
 ---
 
 
-#### [Implementation using fixed size array](Stacks/ImplementingWithFixedSizeArray.cpp)
+#### [Implementation using fixed size array](codes/Stacks/ImplementingWithFixedSizeArray.cpp)
 <details>
 <summary>Hint</summary>
 
@@ -34,7 +34,7 @@ Basic operations: push(), pop(), empty(), top();
 
 
 
-#### [Implementing using vector](Stacks/ImplementationUsingVector.cpp)
+#### [Implementing using vector](codes/Stacks/ImplementationUsingVector.cpp)
 <details>
 <summary>Hint</summary>
 
@@ -46,7 +46,7 @@ Basic operations: push(), pop(), empty(), top();
 
 
 
-#### [Implementing using LinkedList](Stacks/ImplentationUsingLinkedList.cpp)
+#### [Implementing using LinkedList](codes/Stacks/ImplentationUsingLinkedList.cpp)
 <details>
 <summary>Hint</summary>
 
@@ -63,7 +63,7 @@ Basic operations: push(), pop(), empty(), top();
 
 
 
-#### [Balanced Paranthesis](Stacks/BalancedParanthesis.cpp)
+#### [Balanced Paranthesis](codes/Stacks/BalancedParanthesis.cpp)
 <details>
 <summary>Hint</summary>
 
@@ -77,7 +77,7 @@ Basic operations: push(), pop(), empty(), top();
 
 
 
-#### [Implementing 2 Stacks Using An Array](Stacks/TwoStacksUsingSingleArray.cpp)
+#### [Implementing 2 Stacks Using An Array](codes/Stacks/TwoStacksUsingSingleArray.cpp)
 <details>
 <summary>Hint</summary>
 
@@ -99,7 +99,7 @@ Basic operations: push(), pop(), empty(), top();
 
 
 
-#### [Implementing K Stacks Using Array](Stacks/NStacksUsingSingleArray.cpp)
+#### [Implementing K Stacks Using Array](codes/Stacks/NStacksUsingSingleArray.cpp)
 <details>
 <summary>Hint</summary>
 
@@ -162,7 +162,7 @@ Basic operations: push(), pop(), empty(), top();
 
 
 
-#### [Stock Span Problem -> Closest Prev Greater Element](Stacks/StockSpanProblem_ClosestPrevGreaterElement.cpp)
+#### [Stock Span Problem -> Closest Prev Greater Element](codes/Stacks/StockSpanProblem_ClosestPrevGreaterElement.cpp)
 <details>
 <summary>Hint</summary>
 
@@ -198,7 +198,7 @@ Basic operations: push(), pop(), empty(), top();
 
 
 
-#### [Prev Greater Element](Stacks/PrevGreaterElement_Closest.cpp)
+#### [Prev Greater Element](codes/Stacks/PrevGreaterElement_Closest.cpp)
 <details>
 <summary>Hint</summary>
 
@@ -225,7 +225,7 @@ Basic operations: push(), pop(), empty(), top();
 
 
 
-#### [Next Greater Element](Stacks/NextGreaterElementClosest.cpp)
+#### [Next Greater Element](codes/Stacks/NextGreaterElementClosest.cpp)
 <details>
 <summary>Hint</summary>
 
@@ -256,7 +256,7 @@ Basic operations: push(), pop(), empty(), top();
 
 
 
-#### [Largest Rectangular Area In Histogram](Stacks/LargestRectangularArea.cpp)
+#### [Largest Rectangular Area In Histogram](codes/Stacks/LargestRectangularArea.cpp)
 <details>
 <summary>Hint</summary>
 
@@ -318,7 +318,7 @@ Basic operations: push(), pop(), empty(), top();
 
 
 
-#### [Largest Rectangle with all 1s](Stacks/LargestRectangleWithALL1s2Darr.cpp)
+#### [Largest Rectangle with all 1s](codes/Stacks/LargestRectangleWithALL1s2Darr.cpp)
 <details>
 <summary>Hint</summary>
 
@@ -346,7 +346,7 @@ Basic operations: push(), pop(), empty(), top();
 </details>
 
 
-#### [GetMin Function Implementation](Stacks/GetMin.cpp)
+#### [GetMin Function Implementation](codes/Stacks/GetMin.cpp)
 <details>
 <summary>Hint</summary>
 
@@ -377,7 +377,7 @@ Basic operations: push(), pop(), empty(), top();
 </details>
 
 
-#### [Infix To Postfix](Stacks/InfixToPostfix.cpp)
+#### [Infix To Postfix](codes/Stacks/InfixToPostfix.cpp)
 <details>
 <summary>Hint</summary>
 
@@ -405,7 +405,7 @@ Basic operations: push(), pop(), empty(), top();
 </details>
 
 
-#### [Infix To Prefix](Stacks/InfixToPrefix.cpp)
+#### [Infix To Prefix](codes/Stacks/InfixToPrefix.cpp)
 <details>
 <summary>Hint</summary>
 
@@ -424,7 +424,7 @@ Basic operations: push(), pop(), empty(), top();
 </details>
 
 
-#### [Evaluate Postfix](Stacks/EvaluateProstfix.cpp)
+#### [Evaluate Postfix](codes/Stacks/EvaluateProstfix.cpp)
 <details>
 <summary>Hint</summary>
 
@@ -441,7 +441,7 @@ Basic operations: push(), pop(), empty(), top();
 </details>
 
 
-#### [Evaluate Prefix](Stacks/EvaluatePrefix.cpp)
+#### [Evaluate Prefix](codes/Stacks/EvaluatePrefix.cpp)
 <details>
 <summary>Hint</summary>
 

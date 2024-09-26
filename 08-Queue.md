@@ -19,7 +19,7 @@ Variations: Doubly Ended Queue, Circular Queue, Prioirity Queue
 ---
 
 
-#### [Implementation using fixed size array](Queue/ImplementationArray.cpp)
+#### [Implementation using fixed size array](codes/Queue/ImplementationArray.cpp)
 <details>
 <summary>Hint</summary>
 
@@ -32,7 +32,7 @@ Variations: Doubly Ended Queue, Circular Queue, Prioirity Queue
 
 </details>
 
-#### [Implementation using LinkedList](Queue/ImplementationWithLinkedList.cpp)
+#### [Implementation using LinkedList](codes/Queue/ImplementationWithLinkedList.cpp)
 <details>
 <summary>Hint</summary>
 
@@ -50,7 +50,7 @@ Variations: Doubly Ended Queue, Circular Queue, Prioirity Queue
 
 </details>
 
-#### [Stack Using Queue](Queue/ImplementStackUsingQueue.cpp)
+#### [Stack Using Queue](codes/Queue/ImplementStackUsingQueue.cpp)
 <details>
 <summary>Hint</summary>
 
@@ -65,7 +65,7 @@ Variations: Doubly Ended Queue, Circular Queue, Prioirity Queue
 
 </details>
 
-#### [Reverse Queue](Queue/ReversingAQueue.cpp)
+#### [Reverse Queue](codes/Queue/ReversingAQueue.cpp)
 <details>
 <summary>Hint</summary>
 
@@ -80,7 +80,7 @@ Variations: Doubly Ended Queue, Circular Queue, Prioirity Queue
 
 </details>
 
-#### [Generate Numbers With Given Digits In Increase Order](Queue/GenerateNumbersWithGivenDigitsInc.cpp)
+#### [Generate Numbers With Given Digits In Increase Order](codes/Queue/GenerateNumbersWithGivenDigitsInc.cpp)
 <details>
 <summary>Hint</summary>
 

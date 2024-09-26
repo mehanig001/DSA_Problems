@@ -6,7 +6,7 @@
 
 ### Codes And Hacks
 
-#### [Binary Search Rec And Iterative Both](Searching/BinarySearch.cpp)
+#### [Binary Search Rec And Iterative Both](codes/Searching/BinarySearch.cpp)
 <details>
 <summary>Hint</summary>
 
@@ -17,7 +17,7 @@
 
 </details>
 
-#### [First/Last Occ in Sorted Array Or Count Of A Element](Searching/FirstNLastOccIndexBinSearch.cpp)
+#### [First/Last Occ in Sorted Array Or Count Of A Element](codes/Searching/FirstNLastOccIndexBinSearch.cpp)
 <details>
 <summary>Hint</summary>
 
@@ -27,7 +27,7 @@
 
 </details>
 
-#### [Search In An Infinite Sorted Array](Searching/Search_InfiniteArray.cpp)
+#### [Search In An Infinite Sorted Array](codes/Searching/Search_InfiniteArray.cpp)
 <details>
 <summary>Hint</summary>
     Seprately check for 0th idx and then take mid = 1 and use condition of sorting 
@@ -38,7 +38,7 @@
     nhi mila to -1 return karne kaa
 </details>
 
-#### [Find SqRoot Floor value](Searching/SqRootFloorValue.cpp)
+#### [Find SqRoot Floor value](codes/Searching/SqRootFloorValue.cpp)
 <details>
 <summary>Hint</summary>
 
@@ -46,7 +46,7 @@
     agar mid*mid < n hai to pahle ans store kr lo fir right me search kro
 </details>
 
-#### [IMP: Search In Sorted And Rotated Array](Searching/Search_SortedRotatedArray.cpp)
+#### [IMP: Search In Sorted And Rotated Array](codes/Searching/Search_SortedRotatedArray.cpp)
 <details>
 <summary>Hint</summary>
     Graph se socho corner elements ka use kr skte hai
@@ -57,7 +57,7 @@
 
 </details>
 
-#### [Find Peak Element Greater than Neighbours](Searching/PeakElementGreaterThanNeighbours.cpp)
+#### [Find Peak Element Greater than Neighbours](codes/Searching/PeakElementGreaterThanNeighbours.cpp)
 <details>
 <summary>Hint</summary>
 
@@ -70,14 +70,14 @@
 
 </details>
 
-#### [Two Pointer PairSum = Given Sum In Sorted Array](Searching/TwoPointerPairSumInSorted.cpp)
+#### [Two Pointer PairSum = Given Sum In Sorted Array](codes/Searching/TwoPointerPairSumInSorted.cpp)
 <details>
 <summary>Hint</summary>
 
     chk if sum is less lft ptr++; else right ptr--  while(leftptr < rightptr)
 </details>
 
-#### [Triplet Sum In Sorted Array Equal To Given Sum](Searching/PairOfThreeEqualsGivenSum.cpp)
+#### [Triplet Sum In Sorted Array Equal To Given Sum](codes/Searching/PairOfThreeEqualsGivenSum.cpp)
 <details>
 <summary>Hint</summary>
 
@@ -85,7 +85,7 @@
     find two pair sum by two pointer approach for every left idx i+1 to last for sum = s-v[i] k liye do ki pair
 </details>
 
-#### [Imp: Median Of Two Sorted And Merged Array ](Searching/MedianOf2SortedArr.cpp)
+#### [Imp: Median Of Two Sorted And Merged Array ](codes/Searching/MedianOf2SortedArr.cpp)
 <details>
 <summary>Hint</summary>
 
@@ -112,7 +112,7 @@
 
 </details>
 
-#### [RepeatingElement_ArrayConsistSingleRepeatingElement](Searching/RepeatingElement.cpp)
+#### [RepeatingElement_ArrayConsistSingleRepeatingElement](codes/Searching/RepeatingElement.cpp)
 <details>
 <summary>Hint</summary>
 <br>
@@ -125,7 +125,7 @@
  
 </details>
 
-#### [RepeatedElementOptimizedBySumAndChainMethod](Searching/RepeatingElementOptimizedWithChain.cpp)
+#### [RepeatedElementOptimizedBySumAndChainMethod](codes/Searching/RepeatingElementOptimizedWithChain.cpp)
 <details>
 <summary>Hint</summary>
 <br>
@@ -151,7 +151,7 @@
 </details>
 
 
-#### [Book Allocation MinNoOfConsecutivePagesToEachStudent](Searching/BookAllocationMinPages.cpp)
+#### [Book Allocation MinNoOfConsecutivePagesToEachStudent](codes/Searching/BookAllocationMinPages.cpp)
 <details>
 <summary>Hint</summary>
 <br>

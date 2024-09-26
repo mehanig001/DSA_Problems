@@ -119,12 +119,12 @@ Two Popular ways of collision handing
 
 
 
-### [Unordered Sets and more in C++ STL](Hashing/set.cpp)
-### [Unordered Maps and more in C++ STL](Hashing/maps.cpp)
+### [Unordered Sets and more in C++ STL](codes/Hashing/set.cpp)
+### [Unordered Maps and more in C++ STL](codes/Hashing/maps.cpp)
 
 
 
-#### [Intersection Of 2 unsorted Arrays](Hashing/IntersectionsOf2UnsortedArr.cpp)
+#### [Intersection Of 2 unsorted Arrays](codes/Hashing/IntersectionsOf2UnsortedArr.cpp)
 <details>
 <summary>Hint</summary>
 
@@ -138,7 +138,7 @@ Two Popular ways of collision handing
 </details>
 
 
-#### [Union Of 2 Unsorted Arrays ](Hashing/Union2UnsortedArr.cpp)
+#### [Union Of 2 Unsorted Arrays ](codes/Hashing/Union2UnsortedArr.cpp)
 <details>
 <summary>Hint</summary>
 
@@ -150,7 +150,7 @@ Two Popular ways of collision handing
 </details>
 
 
-#### [Pair With Given Sum Exist Or Not](Hashing/PairWithSumExist.cpp)
+#### [Pair With Given Sum Exist Or Not](codes/Hashing/PairWithSumExist.cpp)
 <details>
 <summary>Hint</summary>
 
@@ -173,7 +173,7 @@ Two Popular ways of collision handing
 
 </details>
 
-#### [Subarray With Zero Sum Exist Or Not](Hashing/SubarrWithZeroSum.cpp)
+#### [Subarray With Zero Sum Exist Or Not](codes/Hashing/SubarrWithZeroSum.cpp)
 <details>
 <summary>Hint</summary>
 
@@ -192,7 +192,7 @@ Two Popular ways of collision handing
 
 </details>
 
-#### [Subarray With Given Sum Exist Or Not](Hashing/SubArrWithGivenSum.cpp)
+#### [Subarray With Given Sum Exist Or Not](codes/Hashing/SubArrWithGivenSum.cpp)
 <details>
 <summary>Hint</summary>
 
@@ -212,7 +212,7 @@ Two Popular ways of collision handing
 </details>
 
 
-#### [Return Length Of Longest Subarray With Given Sum](Hashing/LongestSubarrayWithGivenSum.cpp)
+#### [Return Length Of Longest Subarray With Given Sum](codes/Hashing/LongestSubarrayWithGivenSum.cpp)
 <details>
 <summary>Hint</summary>
 
@@ -240,7 +240,7 @@ Two Popular ways of collision handing
 </details>
 
 
-#### [Max Length Of Subarray Containing Equal 0s and 1s in Binary Arr](Hashing/LongestSubbWithEqual0sAnd1sBinaryArr.cpp)
+#### [Max Length Of Subarray Containing Equal 0s and 1s in Binary Arr](codes/Hashing/LongestSubbWithEqual0sAnd1sBinaryArr.cpp)
 <details>
 <summary>Hint</summary>
 
@@ -256,7 +256,7 @@ Two Popular ways of collision handing
 </details>
 
 
-#### [Longest common span with equal sum in binary arrays](Hashing/LongestCommonSpanEqualSumBinArr.cpp)
+#### [Longest common span with equal sum in binary arrays](codes/Hashing/LongestCommonSpanEqualSumBinArr.cpp)
 <details>
 <summary>Hint</summary>
 
@@ -284,7 +284,7 @@ Two Popular ways of collision handing
 </details>
 
 
-#### [Longest Consecutive Subsequence](Hashing/LongestConsecutiveSubsequence.cpp)
+#### [Longest Consecutive Subsequence](codes/Hashing/LongestConsecutiveSubsequence.cpp)
 We have to return longest length of consecutive elements present in arr in any order
 <details>
 <summary>Hint</summary>
@@ -334,7 +334,7 @@ We have to return longest length of consecutive elements present in arr in any o
 </details>
 
 
-#### [Count Distinct Elements In Every Window](Hashing/CountDistinctElementsInEveryWindow.cpp)
+#### [Count Distinct Elements In Every Window](codes/Hashing/CountDistinctElementsInEveryWindow.cpp)
 <details>
 <summary>Hint</summary>
 
@@ -353,7 +353,7 @@ We have to return longest length of consecutive elements present in arr in any o
 </details>
 
 
-#### [More Than n/k occurance](Hashing/MoreThan_NbyK_occ.cpp)
+#### [More Than n/k occurance](codes/Hashing/MoreThan_NbyK_occ.cpp)
 <details>
 <summary>Hint</summary>
 

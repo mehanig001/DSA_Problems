@@ -1,7 +1,7 @@
 ## CODES
 
 
-#### [Rotate Matrix AntiClockWise By 90deg](Matrix/RotateAntiClockBy90DEG.cpp)
+#### [Rotate Matrix AntiClockWise By 90deg](codes/Matrix/RotateAntiClockBy90DEG.cpp)
 <details>
 <summary>Hint</summary>
 
@@ -14,7 +14,7 @@
 </details>
 
 
-#### [Spiral Matrix](Matrix/SpiralMatrix.cpp)
+#### [Spiral Matrix](codes/Matrix/SpiralMatrix.cpp)
 <details>
 <summary>Hint</summary>
 
@@ -29,7 +29,7 @@
 </details>
 
 
-#### [MedianIn2DArray](Matrix/MedianIn2DArrays.cpp)
+#### [MedianIn2DArray](codes/Matrix/MedianIn2DArrays.cpp)
 Row-Wise Sorted
 <details>
 <summary>Hint</summary>

@@ -13,7 +13,7 @@ sort(v.begin(),v.end(),greater<int>) this will sort given vector in descending o
 
 Here is example of comparator function for better understanding
 
-#### [Comparator Functions](Sortings/comparatorFuncn.cpp)
+#### [Comparator Functions](codes/Sortings/comparatorFuncn.cpp)
 
 ### Stability in a sorting algo
 
@@ -37,7 +37,7 @@ Unstable are:<br>
 ### Codes 
 --- 
 
-#### [Bubble Sort](Sortings/BubbleSort.cpp)
+#### [Bubble Sort](codes/Sortings/BubbleSort.cpp)
 <details>
 <summary>Hint</summary>
 
@@ -52,7 +52,7 @@ Unstable are:<br>
 
 </details>
 
-#### [Selection Sort](Sortings/SelectionSort.cpp)
+#### [Selection Sort](codes/Sortings/SelectionSort.cpp)
 <details>
 <summary>Hint</summary>
 
@@ -77,7 +77,7 @@ Unstable are:<br>
 
 </details>
 
-#### [Insertion Sort](Sortings/InsertoinSort.cpp)
+#### [Insertion Sort](codes/Sortings/InsertoinSort.cpp)
 <details>
 <summary>Hint</summary>
 
@@ -102,7 +102,7 @@ Unstable are:<br>
 
 </details>
 
-#### [Merge Sort](Sortings/MergeSort.cpp)
+#### [Merge Sort](codes/Sortings/MergeSort.cpp)
 
 <details><summary>Details</summary>
 
@@ -133,7 +133,7 @@ Unstable are:<br>
 
 
 
-#### [Intersection in 2 sorted Arrays](Sortings/Intersection2SortedArr.cpp)
+#### [Intersection in 2 sorted Arrays](codes/Sortings/Intersection2SortedArr.cpp)
 <details>
 <summary>Hint</summary>
 
@@ -147,7 +147,7 @@ Unstable are:<br>
 
 </details>
 
-#### [Union of 2 Sorted Arrays](Sortings/UnionOf2Arr.cpp)
+#### [Union of 2 Sorted Arrays](codes/Sortings/UnionOf2Arr.cpp)
 <details>
 <summary>Hint</summary>
 
@@ -159,7 +159,7 @@ Unstable are:<br>
 </details>
 
 
-#### [Count Inversion](Sortings/CountInversionInArr.cpp)
+#### [Count Inversion](codes/Sortings/CountInversionInArr.cpp)
 <details>
 <summary>Hint</summary>
 
@@ -178,7 +178,7 @@ Unstable are:<br>
 
 </details>
 
-#### [Partition](Sortings/Partition.cpp)
+#### [Partition](codes/Sortings/Partition.cpp)
 <details>
 <summary>Hint</summary>
 
@@ -215,7 +215,7 @@ Unstable are:<br>
 
 </details>
 
-#### [Lumoto Partition Window Sliding Last_Pivot](Sortings/LomutoPartition_WindowSlididngAssumLastPivotAlways.cpp)
+#### [Lumoto Partition Window Sliding Last_Pivot](codes/Sortings/LomutoPartition_WindowSlididngAssumLastPivotAlways.cpp)
 <details>
 <summary>Hint</summary>
 
@@ -243,7 +243,7 @@ Unstable are:<br>
 
 </details>
 
-#### [Hoare's Partition First_Pivot](Sortings/HoarePartition_FirstPivot.cpp)
+#### [Hoare's Partition First_Pivot](codes/Sortings/HoarePartition_FirstPivot.cpp)
 <details>
 <summary>Hint</summary>
    
@@ -277,7 +277,7 @@ Unstable are:<br>
 
 
 
-#### [Quick Sort](Sortings/QuickSort.cpp)
+#### [Quick Sort](codes/Sortings/QuickSort.cpp)
 <details><summary>DETAILS</summary>
 
     Divide & Conquer: not always divide in half
@@ -308,7 +308,7 @@ Unstable are:<br>
 
 
 
-#### [Kth Smallest Element](Sortings/KthSmallestElement.cpp)
+#### [Kth Smallest Element](codes/Sortings/KthSmallestElement.cpp)
 <details>
 <summary>Hint</summary>
 
@@ -336,7 +336,7 @@ Unstable are:<br>
 
 </details>
 
-#### [Sort 0s 1s And 2s](Sortings/Sort0s1sAnd2s.cpp)
+#### [Sort 0s 1s And 2s](codes/Sortings/Sort0s1sAnd2s.cpp)
 <details>
 <summary>Hint</summary>
 
@@ -369,7 +369,7 @@ Unstable are:<br>
 </details>
 
 
-#### [MergeIntervals](Sortings/MergeIntervals.cpp)
+#### [MergeIntervals](codes/Sortings/MergeIntervals.cpp)
 <details>
 <summary>Hint</summary>
 
@@ -381,7 +381,7 @@ Unstable are:<br>
 
 </details>
 
-#### [Meeting Maximum Guests](Sortings/MeetMaximumGuest.cpp)
+#### [Meeting Maximum Guests](codes/Sortings/MeetMaximumGuest.cpp)
 <details>
 <summary>Hint</summary>
 
@@ -394,7 +394,7 @@ Unstable are:<br>
 
 </details>
 
-#### [Cycle Sort](Sortings/CycleSort.cpp)
+#### [Cycle Sort](codes/Sortings/CycleSort.cpp)
 <details>
 <summary>Hint</summary>
 
@@ -419,7 +419,7 @@ Unstable are:<br>
 
 </details>
 
-#### [Heap Sort](Sortings/HeapSort.cpp)
+#### [Heap Sort](codes/Sortings/HeapSort.cpp)
 <details>
 <summary>Hint</summary>
 
@@ -442,7 +442,7 @@ Unstable are:<br>
 
 </details>
 
-#### [Count Sort](Sortings/CountSort.cpp)
+#### [Count Sort](codes/Sortings/CountSort.cpp)
 <details>
 <summary>Hint</summary>
 
@@ -465,7 +465,7 @@ Unstable are:<br>
 
 </details>
 
-#### [Radix Sort](Sortings/RadixSort.cpp)
+#### [Radix Sort](codes/Sortings/RadixSort.cpp)
 <details>
 <summary>Hint</summary>
 
@@ -481,7 +481,7 @@ Unstable are:<br>
 
 </details>
 
-#### [Bucket Sort](Sortings/BucketSort.cpp)
+#### [Bucket Sort](codes/Sortings/BucketSort.cpp)
 <details>
 <summary>Hint</summary>
 
