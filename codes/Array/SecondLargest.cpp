@@ -7,7 +7,7 @@ int main(){
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
 
-    int arr[5] = {2,1,3,5,4};
+    int arr[5] = {-2,-1,-3,-5,4};
 
     //return idx of second largest if exist else -1
 
@@ -15,13 +15,13 @@ int main(){
     ll max2 = LLONG_MIN;
 
     for(int i = 0; i < 5; i++){
-        if(arr[i] > arr[max1]){
+        if(arr[i] > max1){
             max2 = max1;
-            max1 = i;
+            max1 = arr[i];
         }
         //REMEMBER THIS CONDITION
-        else if(arr[i]<arr[max1] ){
-            if(max2 == LLONG_MIN || arr[max2] < arr[i]) max2 = i;
+        else if(arr[i] < max2){
+            if(max2 == LLONG_MIN || max2 < arr[i]) max2 = arr[i];
         }
     }
 
