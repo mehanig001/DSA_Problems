@@ -8,8 +8,7 @@ void printPrimes(ll n){
     vector<bool> visited(n+1,1);
     for(ll i = 2; i*i <= n; i++){
         if(visited[i] == 1){
-    
-            for(ll j = i*2; j <= n; j+=i){
+            for(ll j = i*i; j <= n; j+=i){
                 visited[j] = 0;
             }
         }
