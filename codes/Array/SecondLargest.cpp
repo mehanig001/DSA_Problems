@@ -11,8 +11,8 @@ int main(){
 
     //return idx of second largest if exist else -1
 
-    int max1 = 0;
-    int max2 = -1;
+    ll max1 = LLONG_MIN;
+    ll max2 = LLONG_MIN;
 
     for(int i = 0; i < 5; i++){
         if(arr[i] > arr[max1]){
@@ -21,11 +21,11 @@ int main(){
         }
         //REMEMBER THIS CONDITION
         else if(arr[i]<arr[max1] ){
-            if(max2 == -1 || arr[max2] < arr[i]) max2 = i;
+            if(max2 == LLONG_MIN || arr[max2] < arr[i]) max2 = i;
         }
     }
 
-    cout<<max2;
+    cout<<max2<<endl;
 
     return 0;
 }
